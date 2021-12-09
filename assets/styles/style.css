@@ -1,0 +1,130 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    margin: 0;
+}
+
+header{
+    min-height: 69px;
+    
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    min-width: 100%;
+    margin: auto;
+    position:fixed;
+    flex-wrap: wrap;
+    flex-direction: column;
+    z-index:1001;
+    
+    
+}
+
+h1,h4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.headerLinksContainer{
+    display: flex;
+    right: 0px;
+    float: right;
+    min-height: 100%;
+    text-align: center;
+    min-width: 50%;
+    justify-content:end
+    
+
+    
+    
+}
+
+.navlink{
+    display: inline;
+    margin-right: 10px;
+    text-decoration: underline;
+}
+
+.container{
+    align-items: center;
+   display: flex;
+   justify-content: space-around;
+   padding-top: 69px;
+   flex-wrap: wrap;
+
+}
+
+.largebanner{
+    background-image: url('../imgs/img-mission-background.jpeg');
+    width: 1200px;
+    height: 700px;
+    padding-top: 69px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    
+
+    
+}
+
+.missionstatement{
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+
+
+}
+
+
+.featuredcontainer {
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+
+    
+}
+
+.featuredtitle{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.featuredcontent{
+    max-width: 1000px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+   
+    
+    
+}
+
+.featuredcard{
+    width: 300px;
+    text-align: center;
+
+
+}
+
+.featuredcard img {
+    width: 300px;
+    height: 200px;
+    
+    
+}
+
+
+#logo{
+    margin-left: 10px;
+    height: 50px;
+    margin-top: 15px;
+}
