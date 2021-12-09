@@ -5,6 +5,7 @@ body {
     background-color: black;
     opacity: 0.9;
     margin: 0;
+    max-width: 2100PX;;
 }
 
 header{
@@ -25,6 +26,13 @@ header{
 h1,h4{
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+footer{
+    display: block;
+    text-align: center;
+    min-width: 1000px;
+    color: seashell;
 }
 
 .headerLinksContainer{
@@ -53,6 +61,7 @@ h1,h4{
    justify-content: space-around;
    padding-top: 69px;
    flex-wrap: wrap;
+  
 
 }
 
@@ -122,6 +131,45 @@ h1,h4{
     
 }
 
+.locationwrapper{
+    
+    min-width: 500px;
+    background-image: url('../imgs/img-locations-background.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    margin-top: 100px;;
+    justify-content: center;
+    margin-bottom: 50px;
+    opacity: 0.8;
+}
+
+.locationtitle {
+    padding-top:50px;
+    
+    text-align: center;
+
+}
+
+
+.locationtitlewrapper{
+    display: flex;
+    flex-flow: wrap;
+    padding-top: 40px;
+    justify-content: space-evenly;
+
+}
+
+.locationcard {
+    background-color: black;
+    opacity: 0.8;
+    width: 300px;
+    height: 250px;
+    margin-bottom: 100px;
+    margin-right: 50px;
+    margin-left: 50px;
+    text-align: center;
+}
 
 #logo{
     margin-left: 10px;
