@@ -55,6 +55,10 @@ footer{
     text-decoration: underline;
 }
 
+.navlink a {
+    color: seashell;
+}
+
 .container{
     align-items: center;
    display: flex;
